@@ -17,7 +17,8 @@ while ($item = mysqli_fetch_object($r)) {
 	<firstname>$item->firstname</firstname>
 	<lastname>$item->lastname</lastname>
 	<address>$item->address</address>
-	<contacts>$item->contacts</contacts>
+	<email>$item->email</email>
+	<contact>$item->contact</contact>
 	</item>
 	";
 }
